@@ -381,6 +381,17 @@ svg circle:nth-child(2) {
   margin-bottom: 30px;
 }
 
+.list-item__text a {
+  color: #777777;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.list-item__text a:hover {
+  color: coral;
+}
+
+
 .list-item-none-border {
   border: none;
 }
@@ -569,6 +580,8 @@ svg circle:nth-child(2) {
     line-height: 1.4;
     letter-spacing: normal;
   }
+
+
 
   .about-contacts__link {
     font-size: 12px;
